@@ -1,0 +1,84 @@
+body{
+    background: url(https://images.pexels.com/photos/235925/pexels-photo-235925.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: rgba(247, 244, 244, 0.6);
+    padding: 20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+header label{
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: 2.0em;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+nav{
+    float:right;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.navi a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+.navi a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.navi .active{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+  
+.main{
+    margin: 10px;
+    padding-left:100px;
+}
+
+.toi-1{
+display: inline-flex;
+width: 350px;
+height: 250px;
+margin: 20px 40px;
+background-size: cover;
+border-radius: 10px;
+opacity: 0.8;
+}
+
+.toi-2{
+text-align: center;
+margin: 85px;
+font-weight: bolder;
+color: white;
+}
+
+
+.toi-2 a{
+text-decoration: none;
+color: #ffffff;
+}
+
+
+
+

@@ -1,0 +1,103 @@
+body{
+    background: url(https://i2.wp.com/static.web-backgrounds.net/uploads/2012/08/Green_Abstract_Background_with_Bubbles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: rgba(247, 244, 244, 0.6);
+    padding: 20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+header label{
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: 2.0em;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+nav{
+    float:right;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.navi a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+.navi a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.navi .active{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.info div{
+    padding-right: 25px;
+}
+
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 60px;
+}
+
+td {
+    border-bottom: 1px solid #86af49;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #b5e7a0;
+}
+
+tr i{
+    padding: 5px;
+}
+
+.video{
+    margin-top:40px;
+    text-align: center;
+}
+
+.question{
+    float: right;
+    margin-top: 40px;
+}
+
+.submit{
+    float: right;
+}

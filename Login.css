@@ -1,0 +1,113 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Verdana ;
+	background : url(https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/1/2/6/8/2218621-1-eng-GB/Agribusiness-needs-to-step-up-investment-in-technology-Diamond-V_wrbm_large.jpg);
+	background-size:cover;
+}
+
+header label{
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: 2.0em;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.loginbox{
+	width:300px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: #FFFFFF;
+}
+
+.loginbox h1{
+	float:left;
+	font-size:40px;
+	margin-bottom:50px;
+}
+
+.textbox{
+	width:100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #B0B0B0;
+}
+
+
+.textbox input{
+	border:none;
+	outline:none;
+	background: none;
+	color: #FFFFFF;
+	font-size:18px;
+	width:80%;
+	float:left;
+	margin: 0 10px;
+}
+
+
+
+
+.btn{
+	width:100%;
+	background:none;
+	border:2px solid #B0B0B0;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size:18px;
+	cursor: pointer;
+	margin:20px 0;
+}
+
+.forgot{
+    margin-top: 20px;  
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn1{
+	width:100%;
+	background:none;
+	border:2px solid #B0B0B0;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size:18px;
+	cursor: pointer;
+	margin:40px 0;
+	
+}
+
+nav{
+    float:right;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.navi a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+.navi a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.navi .active{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+    <link rel="stylesheet" href="Login.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="login.js"></script>
+</head>
+<body>
+    <header>
+        <label>AgroInfo Center</label>
+    </header>
+    <nav class="navi">
+        <a href="agrohome.html" >Home</a>
+        <a href="info.html">Farming Information</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="#" class="active"><i class="fa fa-user" aria-hidden="true"></i>Log In</a>
+    </nav>
+	<form class="loginbox" method="POST" action="insert.php">
+		<h1>Login</h1>
+		<div class="textbox">
+            <input type="email" placeholder="Enter Username" id="username" name="username">
+            <i class="fa fa-user" aria-hidden="true"></i>
+		</div>
+		
+		<div class="textbox">
+            <input type="password" placeholder="Enter Password" id="password" name="password">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+		</div>
+		
+        <input type="submit" value="LOGIN" id="submit1" class="btn">
+        <div class="forgot">
+            <a href="">Forgot Password</a>
+        </div>
+
+        <div>
+            <a href="signin.html"><input type="button" class="btn1" value="Click here to register"></a>
+        </div>
+    </form>
+    
+
+</body>
+</html>
+

@@ -1,0 +1,67 @@
+body{
+    background: url(https://pixelz.cc/wp-content/uploads/2017/12/cambodian-rice-farmer-uhd-4k-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: rgba(247, 244, 244, 0.6);
+    padding: 20px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+header label{
+    font-family: Comic Sans MS;
+    font-weight: bolder;
+    font-size: 2.0em;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+nav{
+    float:right;
+    line-height: 50px;
+    margin-right: 100px;
+}
+
+.navi a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+}
+
+i{
+    padding-right: 5px;
+}
+
+.navi a:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.navi .active{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+.content{
+    width: 25%;
+    text-align: center;
+    border: 20px solid #ffffff;
+    border-style: double;
+    margin: 300px auto;
+   
+}
+
+.content-1{
+    font-size: 1.5em;
+    background:rgb(255, 255, 255,0.6);
+    
+}
